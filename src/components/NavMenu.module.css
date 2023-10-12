@@ -1,0 +1,22 @@
+.nav ul {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ list-style-type: none;
+ font-size: 2rem;
+ background-color: transparent;
+ margin: 0 20px;
+
+}
+
+body,html {
+    /* background-color: rgba(7, 7, 221, 0.821); */
+    background: url("https://img.freepik.com/free-vector/network-mesh-wire-digital-technology-background_1017-27428.jpg") center center no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+
+

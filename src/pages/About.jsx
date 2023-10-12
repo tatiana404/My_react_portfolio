@@ -1,19 +1,35 @@
+import Col from 'react-bootstrap/Col';
+import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
+import Row from 'react-bootstrap/Row';
+import React from 'react'
+import Footer from './Footer';
+
 export default function About() {
   return (
     <div>
-      <h1>ABOUT ME</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
-      </p>
+      <Container >
+        <Row>
+        <br />
+			<br />
+          <Col style={{ textAlign: "center" }}>
+            <Image style={{ width: "300px", height: "360px" }} src="/img/my_photo.jpg" thumbnail />
+          </Col>
+        </Row>
+      </Container >
+      <br />
+			
+      <div style={{ fontSize: "30px" }}>
+        Hi, my name is Tetiana, I am QA Test Engineer. I was looking for a way to improve my technical 
+        abilities so I have finished front-end and back-end web development course from University of New Brunswick. 
+        Now with a newly aquired knowledge I am eager to use my QA Engineering experience as well as coding skills
+       to support planning, coordinating, and performing activities that support successful product development and business operations
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 }

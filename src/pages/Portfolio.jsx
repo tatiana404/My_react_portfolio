@@ -1,15 +1,86 @@
+
+import Carousel from 'react-bootstrap/Carousel';
+
+
 export default function Portfolio() {
   return (
-    <div>
-      <h1>PORTFOLIO</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
-    </div>
+    <Carousel data-bs-theme="dark">
+      <Carousel.Item>
+      <br />
+			<br />
+      <h2 style={{color:"darkBlue", textAlign: "center" }}>First slide label</h2>
+      <br />
+        <img
+          className="d-block w-100"
+          src="/img/Tech_blog.png"
+          alt="First slide"
+        />
+        <Carousel.Caption>
+        <a href="https://github.com/tatiana404/MVC_Tech_Blog" className="btn btn-primaty">GitHub Link</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <br />
+			<br />
+      <h2 style={{color:"darkBlue", textAlign: "center" }}>Second slide label</h2>
+      <br />
+		
+        <img
+          className="d-block w-100"
+          src="/img/Tech_blog.png"
+          alt="Second slide"
+        />
+        <Carousel.Caption>
+          <a href="https://github.com/tatiana404/MVC_Tech_Blog" className="btn btn-primaty">GitHub Link</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <br />
+			<br />
+      <h2 style={{color:"darkBlue", textAlign: "center" }}>Third slide label</h2>
+      <br />
+			
+        <img
+          className="d-block w-100"
+          src="/img/Tech_blog.png"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <a href="https://github.com/tatiana404/MVC_Tech_Blog" className="btn btn-primaty">GitHub Link</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <br />
+			<br />
+      <h2 style={{color:"darkBlue", textAlign: "center" }}>Third slide label</h2>
+      <br />
+			
+        <img
+          className="d-block w-100"
+          src="/img/Tech_blog.png"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <a href="https://github.com/tatiana404/MVC_Tech_Blog" className="btn btn-primaty">GitHub Link</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+      <br />
+			<br />
+      <h2 style={{color:"darkBlue", textAlign: "center" }}>Third slide label</h2>
+      <br />
+			
+        <img
+          className="d-block w-100"
+          src="/img/Tech_blog.png"
+          alt="Third slide"
+        />
+        <Carousel.Caption>
+          <a href="https://github.com/tatiana404/MVC_Tech_Blog" className="btn btn-primaty">GitHub Link</a>
+        </Carousel.Caption>
+      </Carousel.Item>
+      
+    </Carousel>
+
   );
 }
