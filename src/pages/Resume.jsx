@@ -10,7 +10,7 @@ function GroupExample() {
       <br />
 			<br />
       <div className="bottom-spacing">
-        <a style={{color:"darkblue", font:"bold", fontSize: "25px"}} href={("/img/TetianaResume.pdf")} download="myFile">DOWNLOAD RESUME</a>
+        <a style={{font:"segoe ui", color:"black", font:"bold", fontSize: "25px"}} href={("/img/TetianaResume.pdf")} download="myFile">DOWNLOAD RESUME</a>
       </div>
       <br />
 			<br />

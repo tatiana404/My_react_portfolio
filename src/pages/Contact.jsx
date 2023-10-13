@@ -51,7 +51,7 @@ export default function Contact() {
 			<div className="center">
 			<br />
 			<br />
-				<h2 className="page-header" style={{color:"darkBlue", textAlign: "center" }}>Contact Me :)</h2>
+				<h2 className="page-header" style={{color:"#0D6EFD", textAlign: "center" }}>Contact Me :)</h2>
 			</div>
 			<div>
 			<br />
