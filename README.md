@@ -38,7 +38,10 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Images:
 
-
+![screencapture-localhost-3000-2023-10-13-22_46_33](https://github.com/tatiana404/My_react_portfolio/assets/65060199/8a7446ce-0569-462c-82e1-2bd79a96712d)
+![screencapture-localhost-3000-Portfolio-2023-10-13-22_48_37](https://github.com/tatiana404/My_react_portfolio/assets/65060199/fda80540-3e52-44d2-9167-a7910b9518bd)
+![screencapture-localhost-3000-Contact-2023-10-13-22_47_27](https://github.com/tatiana404/My_react_portfolio/assets/65060199/220b249a-3ec7-442f-b687-d6806ea4705a)
+![screencapture-localhost-3000-Resume-2023-10-13-22_47_40](https://github.com/tatiana404/My_react_portfolio/assets/65060199/4bc32f53-157e-4dd0-b397-f30bbbeb6085)
 
 
 ## Link 
